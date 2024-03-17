@@ -1,0 +1,34 @@
+You are given n words. Some words may repeat. For each word, output its number of occurences.
+THe output order should correspond with the input order of appearance of the word. See the
+sample input/output for clarification.
+
+Constraints:
+1<= n <= 10`5
+The sum of the lengths of all the words do not exceed 10`6
+All the words are composed of lowercase English letters only.
+
+Input Format:
+The first line contains the integer m.
+the next n lines each contain a word.
+
+Output Format:
+Output 2 lines.
+On the first line, output the number of distinct words from the imput.
+ont the second line, output the number of occurences for each distinct word according to their
+appearance in the input.
+
+Sample Input:
+4
+bcdef
+abcdefg
+bcde
+bcdef
+
+Sameple Output:
+3
+2 1 1
+
+Explanation:
+There are 3 distinct words. Here,"bcdef" appears twice in the input at the first and last positions.
+The other words appear once each. The order of the first appearance are "bcdef", "avcdefg" and "bcde"
+wich corresponds to the output.
